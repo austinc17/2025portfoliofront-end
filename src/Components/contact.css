@@ -1,0 +1,60 @@
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    max-width: 1500px;
+  }
+  
+  input,
+  textarea {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #b2ec9f;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 1rem;
+    resize: none;
+    box-shadow: 0 0 6px #b2ec9f;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 12px #b2ec9f;
+  }
+  
+  .btn2 {
+    align-self: center;
+    background-color: black;
+    color: white;
+    border: 2px solid #b2ec9f;
+    box-shadow: 0 0 12px #b2ec9f;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    width: 300px;
+    
+  }
+  
+  .btn2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20
+  }
+
+  .success-message {
+    color: #b2ec9f;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }

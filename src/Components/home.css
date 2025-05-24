@@ -1,0 +1,57 @@
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    margin-right: 220px;
+   
+   
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.textcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align everything left */
+    justify-content: center;
+    max-width: 600px;
+    text-align: left; /* Optional, keeps text readable */
+  }
+  
+  
+  
+h1 {
+    
+    color: white;
+    padding-top: 300px;
+    
+    font-size: 80px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    
+    
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin: 0;
+    margin-top: 0.5rem;
+    color: white;
+  }
+  
+  p {
+    color: white;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1rem;
+    max-width: 600px;
+    margin-top: 1rem;
+    white-space: normal;
+  }
+  
+  

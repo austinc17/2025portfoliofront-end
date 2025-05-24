@@ -1,0 +1,23 @@
+.project-card {
+    background-color: black;
+    color: white;
+    border: 2px solid #b2ec9f;
+    box-shadow: 0 0 15px #b2ec9f;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px) scale(1.03); 
+    box-shadow: 0 0 25px #b2ec9f, 0 0 40px #b2ec9f; 
+  }
+  
+  .tech-stack {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #90ee90;
+  }
+  

@@ -1,0 +1,82 @@
+.navbarclass {
+    color: black;
+    float: right;
+    margin-right: 30px;
+    height: 10vh;
+    
+}
+
+
+  
+  .menubtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+   
+  }
+  
+  /* Default: horizontal layout */
+  .nav-links.open {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links{
+    display: none;
+    position: absolute;
+    top: 60px; 
+    right: 20px;
+    background: black;
+    padding: 1rem 2rem;
+    flex-direction: row; 
+    z-index: 1000;
+    gap: 1rem;
+
+    width: max-content; /* ensures it fits all items */
+    max-width: 100vw;   /* never overflows screen */
+    overflow-x: auto;   /* optional: allows scroll on overflow */
+    box-sizing: border-box;
+    
+  }
+
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Optional: hide menu on small screens unless open */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+
+    @media (min-width: 768px) {
+        .nav-links {
+          display: flex !important;
+          position: static;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          background: none;
+          padding: 0;
+          gap: 2rem;
+        }
+  }
+  
+}
+
+.glow-icon {
+    color: #b2ec9f;
+    filter: drop-shadow(0 0 6px #b2ec9f);
+  }
+  
