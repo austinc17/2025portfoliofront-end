@@ -30,6 +30,7 @@ function Contactme() {
       });
 
       const data = await res.json();
+      console.log(data);
       if (data.message === "Success") {
         setSuccess(true);
         setFormData({ name: '', email: '', message: '' });
