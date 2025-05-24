@@ -19,6 +19,7 @@ function Contactme() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(formData);
 
     try {
       const res = await fetch("https://two025portfolioback-end.onrender.com/api/contact/submit/", {
