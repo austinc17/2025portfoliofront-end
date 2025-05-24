@@ -21,7 +21,7 @@ function Contactme() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:8000/api/contact/submit/", {
+      const res = await fetch("https://two025portfolioback-end.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
