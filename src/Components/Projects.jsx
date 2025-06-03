@@ -33,7 +33,12 @@ function Project() {
         title="Python football game"
         description="Developed a football game in Python using the Tkinter GUI library. Implemented real-time player movement and AI-controlled opponents using key event bindings and a timed animation loop. Integrated collision detection functions to determine interactions between the thrown football and AI players, triggering randomized outcomes (catch or drop) upon collision. Successful catches increment the score, while a countdown timer manages the one-minute game duration, ensuring time-bound gameplay and responsiveness."
         tech="Python · Tkinter"
-      /> 
+      />
+      <ProjectCard
+        title="Portfolio site"
+        description="Developed a dynamic full-stack portfolio built with React and Django, featuring animated UI elements, a downloadable resume, and a modern design to showcase my skills, experience, and projects."
+        tech="React · Python/Django"
+      />
         </div>
        
 
