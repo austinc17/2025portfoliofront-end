@@ -91,3 +91,27 @@ h1 {
   animation: pixarBounce 0.65s ease-out both;
   color: #39ff14
 }
+
+
+a {
+    align-self: center;
+    background-color: black;
+    color: white;
+    border: 2px solid #b2ec9f;
+    box-shadow: 0 0 12px #b2ec9f;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 225px;
+    
+  }
+  
+  a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20
+  }
