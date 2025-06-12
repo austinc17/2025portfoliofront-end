@@ -39,6 +39,12 @@ function Project() {
         description="Developed a dynamic full-stack portfolio built with React and Django, featuring animated UI elements, a downloadable resume, and a modern design to showcase my skills, experience, and projects."
         tech="React · Python/Django"
       />
+       <ProjectCard
+        title="Koalocator"
+        description="Built an interactive koala habitat locator using React.js and Leaflet.js, enabling users to visualize wild koala density across Queensland. Integrated government geospatial datasets to display heatmaps and habitat zones, with a postcode search for local sanctuary discovery. Designed a clean UI and optimized map rendering to support smooth, responsive exploration of wildlife data."
+        link='https://anilocator-qqul821u1-austins-projects-1868d765.vercel.app'
+        tech="React · Leaflet.js · GeoJson"
+      />
         </div>
        
 
