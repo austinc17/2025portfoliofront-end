@@ -39,9 +39,9 @@
     z-index: 1000;
     gap: 1rem;
 
-    width: max-content; /* ensures it fits all items */
-    max-width: 100vw;   /* never overflows screen */
-    overflow-x: auto;   /* optional: allows scroll on overflow */
+    width: max-content; 
+    max-width: 100vw;   
+    overflow-x: auto;   
     box-sizing: border-box;
     box-shadow: none !important;
     padding: 0 !important;

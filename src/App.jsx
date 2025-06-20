@@ -8,6 +8,7 @@ import EduExp from './Components/EduExp'
 import Project from './Components/Projects'
 import Skills from './Components/Skills'
 import Contactme from './Components/Contactme'
+import Badges from './Components/Badges'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <EduExp/>
       <Project/>
       <Skills/>
+      <Badges/>
       <Contactme/>
 
      
