@@ -25,8 +25,9 @@ function Navbar() {
       <li><a href="#experienceandedu" onClick={() => setIsOpen(false)}>Experience and education</a></li>
       <li><a href="#myskills" onClick={() => setIsOpen(false)}>My skills</a></li>
       <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
-      <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
       <li><a href="#badges" onClick={() => setIsOpen(false)}>Badges and certifications</a></li>
+      <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+     
       </ul>
 
      
